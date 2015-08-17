@@ -127,7 +127,7 @@
 	<string translatable="false" name="range_colours">grid,error,lowlight</string>
 	<string translatable="false" name="rect_colours">correct,line,text,grid,drag,dragerase,cursor</string>
 	<string translatable="false" name="samegame_colours">1,2,3,4,5,6,7,8,9,impossible,sel,highlight,lowlight</string>
-	<string translatable="false" name="signpost_colours">highlight,lowlight,grid,cursor,error,drag_origin,arrow,arrow_bg_dim,number,number_set,number_set_mid,b0</string>
+	<string translatable="false" name="signpost_colours">highlight,lowlight,grid,cursor,error,drag_origin,arrow,arrow_bg_dim,empty,number0,number,number_set,number_set_mid,b0</string>
 	<string translatable="false" name="singles_colours">highlight,lowlight,black,white,blacknum,grid,cursor,error</string>
 	<string translatable="false" name="sixteen_colours">text,highlight,lowlight</string>
 	<string translatable="false" name="slant_colours">grid,ink,slant1,slant2,error,cursor,filledsquare</string>
@@ -166,10 +166,12 @@
 	<color name="lightup_night_colour_black">#666666</color>
 	<color name="loopy_night_colour_foreground">#ffffff</color>
 	<color name="loopy_night_colour_satisfied">#ffffff</color>
+	<color name="loopy_night_colour_faint">#666666</color>
 	<color name="loopy_night_colour_lineunknown">#808000</color>
 	<color name="magnets_night_colour_text">#ffffff</color>
 	<color name="magnets_night_colour_negative">#ffffff</color>
 	<color name="map_night_colour_grid">#888888</color>
+	<color name="map_night_colour_text_on_filled">#000000</color>
 	<color name="mines_night_colour_background2">#999999</color>
 	<color name="mines_night_colour_flagbase">#888888</color>
 	<color name="mines_night_colour_query">#888888</color>
@@ -191,10 +193,17 @@
 	<color name="range_night_colour_error">#e62e2e</color>
 	<color name="rect_night_colour_line">#ffffff</color>
 	<color name="rect_night_colour_text">#ffffff</color>
-	<color name="signpost_night_colour_arrow">#666666</color>
-	<color name="signpost_night_colour_arrow_bg_dim">#333333</color>
+	<color name="signpost_night_colour_arrow">#777777</color>
+	<color name="signpost_night_colour_arrow_bg_dim">#b8b8b8</color>
 	<color name="signpost_night_colour_number">#000000</color>
-	<color name="signpost_night_colour_b0">#dddddd</color>
+	<color name="signpost_night_colour_number0">#888888</color>
+	<color name="signpost_night_colour_number_set">#aaaaff</color>
+	<color name="signpost_night_colour_number_set_mid">#4444ee</color>
+	<color name="signpost_night_colour_empty">#dddddd</color>
+	<color name="signpost_night_colour_b0">#000000</color>
+	<color name="signpost_night_colour_m0">#555555</color>
+	<color name="signpost_night_colour_d0">#000000</color>
+	<color name="signpost_night_colour_x0">#000000</color>
 	<color name="singles_night_colour_black">#ffffff</color>
 	<color name="singles_night_colour_blacknum">#cccccc</color>
 	<color name="singles_night_colour_white">#000000</color>

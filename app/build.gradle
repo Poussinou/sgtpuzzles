@@ -36,7 +36,7 @@ model {
 
         defaultConfig.with {
             applicationId = "name.boyle.chris.sgtpuzzles"
-            versionCode = 108
+            versionCode = 109
             versionName = "${timestamp()}-${idForSimon()}"
             targetSdkVersion.apiLevel = 22
             minSdkVersion.apiLevel = 7
@@ -45,7 +45,7 @@ model {
 
     android.ndk {
         moduleName = "puzzles"
-        CFlags += "-DANDROID -DSMALL_SCREEN -DSTYLUS_BASED -DNO_PRINTING -DCOMBINED"
+        CFlags += "-DANDROID -DSMALL_SCREEN -DSTYLUS_BASED -DNO_PRINTING -DCOMBINED -DVIVID_COLOURS"
         // WARNING abiFilters "all" here can end up omitting lib dir; I don't know why
     }
 
