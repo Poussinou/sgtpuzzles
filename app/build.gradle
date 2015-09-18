@@ -32,7 +32,7 @@ def idForSimon() {
 model {
     android {
         compileSdkVersion = 23
-        buildToolsVersion = "23"
+        buildToolsVersion = "23.0.1"
 
         defaultConfig.with {
             applicationId = "name.boyle.chris.sgtpuzzles"
@@ -67,11 +67,15 @@ model {
 
     android.buildTypes {
         debug {
-            isJniDebuggable = true
+            ndk.with {
+                debuggable = true
+            }
         }
         release {
-            isMinifyEnabled = true  // about to be renamed to minifyEnabled
-            isJniDebuggable = false
+            minifyEnabled = true  // about to be renamed to minifyEnabled
+            ndk.with {
+                debuggable = false
+            }
             proguardFiles += file('proguard-rules.txt')
         }
     }
